@@ -9,10 +9,8 @@ int main() {
 
     // Convert Fahrenheit to Celsius
     celsius = (fahrenheit - 32) * 5 / 9;
-
     // Output temperature in Celsius
-    printf("Temperature in Celsius: %.2f\n", celsius);
-
+    printf("Temperature in Celsius: %f", celsius);
     return 0;
 }
 
